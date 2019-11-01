@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using JetBrains.Annotations;
 using UnityEngine;
 
 public class RobotMover : MonoBehaviour
@@ -12,8 +13,10 @@ public class RobotMover : MonoBehaviour
     public bool PlayerControls;
 
     public bool Forward;
+    public bool 
     public bool Left;
     public bool Right;
+    public bool Move;
 
 
     //TODO Den skal ikke kunne gå gennem kasser osv
@@ -40,11 +43,16 @@ public class RobotMover : MonoBehaviour
         }
         else
         {
-            if (Input.GetKey(KeyCode.W))
+            
+            if (Forward)
             {
                 this.transform.Translate(3 * Time.deltaTime * this.transform.forward, Space.World);
             }
-
+            else
+            {
+                this.transform.Translate(3 * Time.deltaTime * this.transform.forward, Space.World);
+            }
+            
             if (Input.GetKey(KeyCode.A))
             {
                 this.transform.Rotate(200 * Time.deltaTime * -transform.up, Space.World);
