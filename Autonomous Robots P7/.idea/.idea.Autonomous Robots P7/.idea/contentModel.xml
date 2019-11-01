@@ -17,6 +17,7 @@
           <e p="Director.cs" t="Include" />
           <e p="ObstacleSpawner.cs" t="Include" />
           <e p="RaycastSensor.cs" t="Include" />
+          <e p="RobotAIV1.cs" t="Include" />
           <e p="RobotMover.cs" t="Include" />
         </e>
       </e>

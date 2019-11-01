@@ -24,7 +24,7 @@ public class RobotMover : MonoBehaviour
     [SerializeField] private float _rotationSpeed;
 
     //TODO Den skal ikke kunne gå gennem kasser osv
-    [SerializeField] private RaycastSensor _sensorForward;
+    [SerializeField] public RaycastSensor _sensorForward;
 
     void Update()
     {
