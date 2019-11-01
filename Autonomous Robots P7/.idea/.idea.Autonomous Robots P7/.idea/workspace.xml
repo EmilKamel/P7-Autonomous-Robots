@@ -14,22 +14,22 @@
       <file leaf-file-name="RobotMover.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/RobotMover.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="598">
-              <caret line="29" column="13" lean-forward="true" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+            <state relative-caret-position="506">
+              <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
               <folding>
-                <marker date="1572619900664" expanded="false" signature="6:107" ph="..." />
-                <marker date="1572619900664" expanded="true" signature="148:1769" ph="{...}" />
-                <marker date="1572619900664" expanded="true" signature="220:232" ph="{...}" />
-                <marker date="1572619900664" expanded="true" signature="507:1730" ph="{...}" />
-                <marker date="1572619900664" expanded="true" signature="541:1049" ph="{...}" />
-                <marker date="1572619900664" expanded="true" signature="592:720" ph="{...}" />
-                <marker date="1572619900664" expanded="true" signature="762:880" ph="{...}" />
-                <marker date="1572619900664" expanded="true" signature="922:1039" ph="{...}" />
-                <marker date="1572619900664" expanded="true" signature="1062:1724" ph="{...}" />
-                <marker date="1572619900664" expanded="true" signature="1110:1238" ph="{...}" />
-                <marker date="1572619900664" expanded="true" signature="1255:1383" ph="{...}" />
-                <marker date="1572619900664" expanded="true" signature="1437:1555" ph="{...}" />
-                <marker date="1572619900664" expanded="true" signature="1597:1714" ph="{...}" />
+                <marker date="1572620254677" expanded="false" signature="6:107" ph="..." />
+                <marker date="1572620254677" expanded="true" signature="148:1771" ph="{...}" />
+                <marker date="1572620254677" expanded="true" signature="220:232" ph="{...}" />
+                <marker date="1572620254677" expanded="true" signature="509:1732" ph="{...}" />
+                <marker date="1572620254677" expanded="true" signature="543:1051" ph="{...}" />
+                <marker date="1572620254677" expanded="true" signature="594:722" ph="{...}" />
+                <marker date="1572620254677" expanded="true" signature="764:882" ph="{...}" />
+                <marker date="1572620254677" expanded="true" signature="924:1041" ph="{...}" />
+                <marker date="1572620254677" expanded="true" signature="1064:1726" ph="{...}" />
+                <marker date="1572620254677" expanded="true" signature="1112:1240" ph="{...}" />
+                <marker date="1572620254677" expanded="true" signature="1257:1385" ph="{...}" />
+                <marker date="1572620254677" expanded="true" signature="1439:1557" ph="{...}" />
+                <marker date="1572620254677" expanded="true" signature="1599:1716" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -182,6 +182,36 @@
               <item name="Autonomous Robots P7 (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
               <item name="Assembly-CSharp-Editor-firstpass" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Autonomous Robots P7 (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp-Editor-firstpass" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Autonomous Robots P7 (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp-Editor-firstpass" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Plugins" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Autonomous Robots P7 (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp-Editor-firstpass" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Plugins" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Editor" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Autonomous Robots P7 (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp-Editor-firstpass" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Plugins" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Editor" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="JetBrains" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -221,12 +251,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1572610034323</updated>
-      <workItem from="1572610040462" duration="6278000" />
+      <workItem from="1572610040462" duration="6466000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6278000" />
+    <option name="totallyTimeSpent" value="6466000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -600,22 +630,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/RobotMover.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="29" column="13" lean-forward="true" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        <state relative-caret-position="506">
+          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
           <folding>
-            <marker date="1572619900664" expanded="false" signature="6:107" ph="..." />
-            <marker date="1572619900664" expanded="true" signature="148:1769" ph="{...}" />
-            <marker date="1572619900664" expanded="true" signature="220:232" ph="{...}" />
-            <marker date="1572619900664" expanded="true" signature="507:1730" ph="{...}" />
-            <marker date="1572619900664" expanded="true" signature="541:1049" ph="{...}" />
-            <marker date="1572619900664" expanded="true" signature="592:720" ph="{...}" />
-            <marker date="1572619900664" expanded="true" signature="762:880" ph="{...}" />
-            <marker date="1572619900664" expanded="true" signature="922:1039" ph="{...}" />
-            <marker date="1572619900664" expanded="true" signature="1062:1724" ph="{...}" />
-            <marker date="1572619900664" expanded="true" signature="1110:1238" ph="{...}" />
-            <marker date="1572619900664" expanded="true" signature="1255:1383" ph="{...}" />
-            <marker date="1572619900664" expanded="true" signature="1437:1555" ph="{...}" />
-            <marker date="1572619900664" expanded="true" signature="1597:1714" ph="{...}" />
+            <marker date="1572620254677" expanded="false" signature="6:107" ph="..." />
+            <marker date="1572620254677" expanded="true" signature="148:1771" ph="{...}" />
+            <marker date="1572620254677" expanded="true" signature="220:232" ph="{...}" />
+            <marker date="1572620254677" expanded="true" signature="509:1732" ph="{...}" />
+            <marker date="1572620254677" expanded="true" signature="543:1051" ph="{...}" />
+            <marker date="1572620254677" expanded="true" signature="594:722" ph="{...}" />
+            <marker date="1572620254677" expanded="true" signature="764:882" ph="{...}" />
+            <marker date="1572620254677" expanded="true" signature="924:1041" ph="{...}" />
+            <marker date="1572620254677" expanded="true" signature="1064:1726" ph="{...}" />
+            <marker date="1572620254677" expanded="true" signature="1112:1240" ph="{...}" />
+            <marker date="1572620254677" expanded="true" signature="1257:1385" ph="{...}" />
+            <marker date="1572620254677" expanded="true" signature="1439:1557" ph="{...}" />
+            <marker date="1572620254677" expanded="true" signature="1599:1716" ph="{...}" />
           </folding>
         </state>
       </provider>

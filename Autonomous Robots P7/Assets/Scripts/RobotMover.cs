@@ -13,7 +13,7 @@ public class RobotMover : MonoBehaviour
     public bool PlayerControls;
 
     public bool Forward;
-    public bool 
+   // public bool 
     public bool Left;
     public bool Right;
     public bool Move;
