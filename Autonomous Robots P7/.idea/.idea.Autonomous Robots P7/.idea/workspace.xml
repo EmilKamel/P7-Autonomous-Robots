@@ -14,14 +14,114 @@
       <file leaf-file-name="RobotMover.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/RobotMover.cs">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="644">
+              <caret line="42" column="40" lean-forward="true" selection-start-line="42" selection-start-column="40" selection-end-line="42" selection-end-column="40" />
+              <folding>
+                <marker date="1572619548070" expanded="false" signature="6:78" ph="..." />
+                <marker date="1572619548070" expanded="true" signature="119:1547" ph="{...}" />
+                <marker date="1572619548070" expanded="true" signature="191:203" ph="{...}" />
+                <marker date="1572619548070" expanded="true" signature="439:1508" ph="{...}" />
+                <marker date="1572619548070" expanded="true" signature="473:981" ph="{...}" />
+                <marker date="1572619548070" expanded="true" signature="524:652" ph="{...}" />
+                <marker date="1572619548070" expanded="true" signature="694:812" ph="{...}" />
+                <marker date="1572619548070" expanded="true" signature="854:971" ph="{...}" />
+                <marker date="1572619548070" expanded="true" signature="994:1502" ph="{...}" />
+                <marker date="1572619548070" expanded="true" signature="1045:1173" ph="{...}" />
+                <marker date="1572619548070" expanded="true" signature="1215:1333" ph="{...}" />
+                <marker date="1572619548070" expanded="true" signature="1375:1492" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RaycastSensor.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/RaycastSensor.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1061">
+              <caret line="59" column="27" lean-forward="false" selection-start-line="59" selection-start-column="27" selection-end-line="59" selection-end-column="27" />
+              <folding>
+                <marker date="1572619271640" expanded="true" signature="6:132" ph="..." />
+                <marker date="1572619271640" expanded="true" signature="176:1798" ph="{...}" />
+                <marker date="1572619271640" expanded="true" signature="497:510" ph="{...}" />
+                <marker date="1572619271640" expanded="true" signature="568:1128" ph="{...}" />
+                <marker date="1572619271640" expanded="true" signature="599:1105" ph="{...}" />
+                <marker date="1572619271640" expanded="true" signature="685:741" ph="{...}" />
+                <marker date="1572619271640" expanded="true" signature="773:934" ph="{...}" />
+                <marker date="1572619271640" expanded="true" signature="951:1082" ph="{...}" />
+                <marker date="1572619271640" expanded="true" signature="1154:1260" ph="{...}" />
+                <marker date="1572619271640" expanded="true" signature="1313:1515" ph="{...}" />
+                <marker date="1572619271640" expanded="true" signature="1420:1473" ph="{...}" />
+                <marker date="1572619271640" expanded="true" signature="1583:1796" ph="{...}" />
+                <marker date="1572619271640" expanded="true" signature="1711:1761" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ObstacleSpawner.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/ObstacleSpawner.cs">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+              <folding>
+                <marker date="1572609073903" expanded="false" signature="6:78" ph="..." />
+                <marker date="1572609073903" expanded="true" signature="124:1581" ph="{...}" />
+                <marker date="1572609073903" expanded="true" signature="489:528" ph="{...}" />
+                <marker date="1572609073903" expanded="true" signature="586:776" ph="{...}" />
+                <marker date="1572609073903" expanded="true" signature="629:681" ph="{...}" />
+                <marker date="1572609073903" expanded="true" signature="719:770" ph="{...}" />
+                <marker date="1572609073903" expanded="true" signature="855:1183" ph="{...}" />
+                <marker date="1572609073903" expanded="true" signature="912:1177" ph="{...}" />
+                <marker date="1572609073903" expanded="true" signature="1243:1343" ph="{...}" />
+                <marker date="1572609073903" expanded="true" signature="1380:1574" ph="{...}" />
+                <marker date="1572609073903" expanded="true" signature="1463:1559" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Director.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Director.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="26" column="5" lean-forward="false" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+              <folding>
+                <marker date="1572618093099" expanded="true" signature="6:164" ph="..." />
+                <marker date="1572618093099" expanded="true" signature="166:515" ph="/* TODO: Robotten må ikke køre gennem ting. ... */" />
+                <marker date="1572618093099" expanded="true" signature="553:1140" ph="{...}" />
+                <marker date="1572618093099" expanded="true" signature="714:764" ph="{...}" />
+                <marker date="1572618093099" expanded="true" signature="800:1042" ph="{...}" />
+                <marker date="1572618093099" expanded="true" signature="816:943" ph="/* TODO:; Other cools computations Filters ... */" />
+                <marker date="1572618093099" expanded="true" signature="984:1035" ph="{...}" />
+                <marker date="1572618093099" expanded="true" signature="1074:1138" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>raycast</find>
+    </findStrings>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/RobotMover.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A1CE4CA8-4A94-4D8A-A5E2-3AA6FA322F2E/3b/2feff369/Physics.cs" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ObstacleSpawner.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Director.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/RaycastSensor.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/Director.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/RaycastSensor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Robot.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/RobotMover.cs" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -30,10 +130,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="442" />
-    <option name="y" value="59" />
-    <option name="width" value="1755" />
-    <option name="height" value="1351" />
+    <option name="x" value="522" />
+    <option name="y" value="63" />
+    <option name="width" value="1654" />
+    <option name="height" value="1315" />
   </component>
   <component name="ProjectView">
     <navigator currentView="SolutionExplorer" proportions="" version="1">
@@ -56,7 +156,30 @@
           <expand>
             <path>
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="Loading solution..." type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Autonomous Robots P7 (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Autonomous Robots P7 (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Autonomous Robots P7 (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Autonomous Robots P7 (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Scripts" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Autonomous Robots P7 (2 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp-Editor-firstpass" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
           </expand>
           <select />
@@ -82,21 +205,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
-      <option name="EXE_PATH" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="PASS_PARENT_ENVS" value="1" />
-      <envs />
-      <option name="USE_MONO" value="0" />
-      <option name="USE_EXTERNAL_CONSOLE" value="0" />
-      <option name="PROJECT_PATH" value="" />
-      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
-      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
-      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
-      <option name="PROJECT_KIND" value="None" />
-      <option name="PROJECT_TFM" value="" />
-    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -111,25 +220,35 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1572610034323</updated>
-      <workItem from="1572610040462" duration="1000" />
+      <workItem from="1572610040462" duration="5677000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1000" />
+    <option name="totallyTimeSpent" value="5677000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="442" y="59" width="1755" height="1351" extended-state="0" />
+    <frame x="522" y="63" width="1654" height="1315" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293687" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24956872" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16727717" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -155,11 +274,347 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/RobotMover.cs">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A1CE4CA8-4A94-4D8A-A5E2-3AA6FA322F2E/3b/2feff369/Physics.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="298" column="23" lean-forward="false" selection-start-line="298" selection-start-column="23" selection-end-line="298" selection-end-column="23" />
+          <folding>
+            <marker date="1572614068838" expanded="true" signature="0:338" ph="/* Decompiled with JetBrains decompiler ... */" />
+            <marker date="1572614068838" expanded="false" signature="346:506" ph="..." />
+            <marker date="1572614068838" expanded="true" signature="529:87379" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="534:631" ph="///   &lt;para&gt;Global physics properties and helper methods.&lt;/para&gt; ... " />
+            <marker date="1572614068838" expanded="true" signature="773:87377" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="847:954" ph="///   &lt;para&gt;Layer mask constant to select ignore raycast layer.&lt;/para&gt; ... " />
+            <marker date="1572614068838" expanded="true" signature="1004:1113" ph="///   &lt;para&gt;Layer mask constant to select default raycast layers.&lt;/para&gt; ... " />
+            <marker date="1572614068838" expanded="true" signature="1166:1263" ph="///   &lt;para&gt;Layer mask constant to select all layers.&lt;/para&gt; ... " />
+            <marker date="1572614068838" expanded="true" signature="1908:2069" ph="///   &lt;para&gt;The minimum contact penetration value in order to apply a penalty force (default 0.05). Must be posit ... " />
+            <marker date="1572614068838" expanded="true" signature="2260:2345" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="2276:2313" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="2323:2339" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="2351:2460" ph="///   &lt;para&gt;The gravity applied to all rigid bodies in the Scene.&lt;/para&gt; ... " />
+            <marker date="1572614068838" expanded="true" signature="2494:2708" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="2523:2627" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="2637:2702" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="2714:2828" ph="///   &lt;para&gt;The default contact offset of the newly created colliders.&lt;/para&gt; ... " />
+            <marker date="1572614068838" expanded="true" signature="2990:3125" ph="///   &lt;para&gt;The mass-normalized energy threshold, below which objects start going to sleep.&lt;/para&gt; ... " />
+            <marker date="1572614068838" expanded="true" signature="3281:3432" ph="///   &lt;para&gt;Specifies whether queries (raycasts, spherecasts, overlap tests, etc.) hit Triggers by default.&lt;/para ... " />
+            <marker date="1572614068838" expanded="true" signature="3591:3702" ph="///   &lt;para&gt;Whether physics queries should hit back-face triangles.&lt;/para&gt; ... " />
+            <marker date="1572614068838" expanded="true" signature="3862:4022" ph="///   &lt;para&gt;Two colliding objects with a relative velocity below this will not bounce (default 2). Must be positi ... " />
+            <marker date="1572614068838" expanded="true" signature="4179:4373" ph="///   &lt;para&gt;The defaultSolverIterations determines how accurately Rigidbody joints and collision contacts are res ... " />
+            <marker date="1572614068838" expanded="true" signature="4536:4739" ph="///   &lt;para&gt;The defaultSolverVelocityIterations affects how accurately the Rigidbody joints and collision contact ... " />
+            <marker date="1572614068838" expanded="true" signature="4998:5143" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="5014:5070" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="5080:5137" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="5149:5308" ph="///   &lt;para&gt;The default linear velocity, below which objects start going to sleep (default 0.15). Must be positiv ... " />
+            <marker date="1572614068838" expanded="true" signature="5479:5564" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="5495:5532" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="5542:5558" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="5570:5724" ph="///   &lt;para&gt;The default angular velocity, below which objects start sleeping (default 0.14). Must be positive.&lt;/p ... " />
+            <marker date="1572614068838" expanded="true" signature="5909:5994" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="5925:5962" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="5972:5988" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="6000:6154" ph="///   &lt;para&gt;The default maximum angular velocity permitted for any rigid bodies (default 7). Must be positive.&lt;/p ... " />
+            <marker date="1572614068838" expanded="true" signature="6313:6398" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="6329:6366" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="6376:6392" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="6557:6718" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="6573:6637" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="6647:6712" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="6901:7078" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="6917:6989" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="6999:7072" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="7184:7269" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="7200:7237" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="7247:7263" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="7275:7411" ph="///   &lt;para&gt;Default maximum angular speed of the dynamic Rigidbody, in radians (default 50).&lt;/para&gt; ... " />
+            <marker date="1572614068838" expanded="true" signature="7575:7688" ph="///   &lt;para&gt;The PhysicsScene automatically created when Unity starts.&lt;/para&gt; ... " />
+            <marker date="1572614068838" expanded="true" signature="7789:7932" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="7805:7926" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="7938:8385" ph="///   &lt;para&gt;Makes the collision detection system ignore all collisions between collider1 and collider2.&lt;/para&gt; ... " />
+            <marker date="1572614068838" expanded="true" signature="8659:8730" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="8736:9227" ph="///         &lt;para&gt;Makes the collision detection system ignore all collisions between any collider in layer1 and a ... " />
+            <marker date="1572614068838" expanded="true" signature="9515:9585" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="9591:9778" ph="///   &lt;para&gt;Are collisions between layer1 and layer2 being ignored?&lt;/para&gt; ... " />
+            <marker date="1572614068838" expanded="true" signature="9912:10433" ph="///   &lt;para&gt;Checks whether the collision detection system will ignore all collisionstriggers between collider1 an ... " />
+            <marker date="1572614068838" expanded="true" signature="10578:11331" ph="///   &lt;para&gt;Casts a ray, from point origin, in direction direction, of length maxDistance, against all colliders  ... " />
+            <marker date="1572614068838" expanded="true" signature="11604:11734" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="11857:11997" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="12105:12238" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="12327:12471" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="12645:12788" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="12962:13115" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="13247:13393" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="13506:13663" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="13669:14312" ph="///   &lt;para&gt;Same as above using ray.origin and ray.direction instead of origin and direction.&lt;/para&gt; ... " />
+            <marker date="1572614068838" expanded="true" signature="14559:14697" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="14794:14942" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="15024:15165" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="15228:15380" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="15652:15803" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="15924:16065" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="16171:16325" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="16412:16577" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="16583:17026" ph="///   &lt;para&gt;Returns true if there is any collider intersecting the line between start and end.&lt;/para&gt; ... " />
+            <marker date="1572614068838" expanded="true" signature="17241:17417" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="17515:17616" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="17699:17793" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="18033:18222" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="18344:18458" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="18565:18672" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="18678:19581" ph="///   &lt;para&gt;Casts a capsule against all colliders in the Scene and returns detailed information on what was hit.&lt; ... " />
+            <marker date="1572614068838" expanded="true" signature="19888:20077" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="20234:20374" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="20516:20649" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="20772:20916" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="21248:21411" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="21592:21745" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="21911:22057" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="22204:22361" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="22676:22830" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="22994:23138" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="23287:23424" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="23554:23702" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="23708:24432" ph="///   &lt;para&gt;Casts a sphere along a ray and returns detailed information on what was hit.&lt;/para&gt; ... " />
+            <marker date="1572614068838" expanded="true" signature="24696:24864" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="24978:25095" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="25194:25304" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="25384:25505" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="25794:25936" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="26074:26204" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="26327:26450" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="26554:26688" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="26694:27494" ph="///   &lt;para&gt;Casts the box along a ray and returns detailed information on what was hit.&lt;/para&gt; ... " />
+            <marker date="1572614068838" expanded="true" signature="27850:28045" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="28213:28359" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="28512:28651" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="28785:28935" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="29045:29203" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="29584:29753" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="29945:30104" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="30281:30433" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="30591:30754" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="30888:31059" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="31343:31477" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="31483:32078" ph="///   &lt;para&gt;See Also: Raycast.&lt;/para&gt; ... " />
+            <marker date="1572614068838" expanded="true" signature="32362:32706" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="32840:32963" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="33082:33198" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="33298:33425" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="33431:33977" ph="///   &lt;para&gt;Casts a ray through the Scene and returns all hits. Note that order is not guaranteed.&lt;/para&gt; ... " />
+            <marker date="1572614068838" expanded="true" signature="34235:34356" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="34491:34622" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="34715:34839" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="34913:35048" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="35054:35762" ph="///   &lt;para&gt;Cast a ray through the Scene and store the hits into the buffer.&lt;/para&gt; ... " />
+            <marker date="1572614068838" expanded="true" signature="36038:36185" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="36338:36495" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="36606:36756" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="36848:37009" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="37015:37833" ph="///   &lt;para&gt;Cast a ray through the Scene and store the hits into the buffer.&lt;/para&gt; ... " />
+            <marker date="1572614068838" expanded="true" signature="38135:38274" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="38426:38575" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="38712:38854" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="38972:39125" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="39462:39627" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="39633:40545" ph="///   &lt;para&gt;Like Physics.CapsuleCast, but this function will return all hits the capsule sweep intersects.&lt;/para&gt; ... " />
+            <marker date="1572614068838" expanded="true" signature="40863:41215" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="41383:41526" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="41679:41815" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="41949:42096" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="42423:42583" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="42589:43362" ph="///   &lt;para&gt;Like Physics.SphereCast, but this function will return all hits the sphere sweep intersects.&lt;/para&gt; ... " />
+            <marker date="1572614068838" expanded="true" signature="43663:44006" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="44157:44291" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="44427:44554" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="44671:44809" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="44815:45426" ph="///   &lt;para&gt;Like Physics.SphereCast, but this function will return all hits the sphere sweep intersects.&lt;/para&gt; ... " />
+            <marker date="1572614068838" expanded="true" signature="45701:45833" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="45958:46078" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="46188:46301" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="46392:46516" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="46829:46982" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="46988:47692" ph="///   &lt;para&gt;Check the given capsule against the physics world and return all overlapping colliders.&lt;/para&gt; ... " />
+            <marker date="1572614068838" expanded="true" signature="47926:48073" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="48201:48320" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="48433:48545" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="48842:48984" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="48990:49443" ph="///   &lt;para&gt;Returns an array with all colliders touching or inside the sphere.&lt;/para&gt; ... " />
+            <marker date="1572614068838" expanded="true" signature="49662:49802" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="49915:50027" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="50125:50230" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="50342:50420" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="50426:50579" ph="///   &lt;para&gt;Simulate physics in the Scene.&lt;/para&gt; ... " />
+            <marker date="1572614068838" expanded="true" signature="50623:50960" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="50966:51088" ph="///   &lt;para&gt;Sets whether the physics should be simulated automatically or not.&lt;/para&gt; ... " />
+            <marker date="1572614068838" expanded="true" signature="51243:51345" ph="///   &lt;para&gt;Apply Transform changes to the physics engine.&lt;/para&gt; ... " />
+            <marker date="1572614068838" expanded="true" signature="51448:51622" ph="///   &lt;para&gt;Whether or not to automatically sync transform changes with the physics system whenever a Transform c ... " />
+            <marker date="1572614068838" expanded="true" signature="51781:51962" ph="///   &lt;para&gt;Determines whether the garbage collector should reuse only a single instance of a Collision type for  ... " />
+            <marker date="1572614068838" expanded="true" signature="52456:52635" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="52843:53052" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="53277:53427" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="53433:54008" ph="///   &lt;para&gt;Returns a point on the given collider that is closest to the specified location.&lt;/para&gt; ... " />
+            <marker date="1572614068838" expanded="true" signature="54120:54210" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="54216:54335" ph="///   &lt;para&gt;Sets the minimum separation distance for cloth inter-collision.&lt;/para&gt; ... " />
+            <marker date="1572614068838" expanded="true" signature="54635:54732" ph="///   &lt;para&gt;Sets the cloth inter-collision stiffness.&lt;/para&gt; ... " />
+            <marker date="1572614068838" expanded="true" signature="55347:55483" ph="///         &lt;para&gt;Cloth Gravity setting. ... " />
+            <marker date="1572614068838" expanded="true" signature="55522:55746" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="55551:55660" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="55670:55740" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="55752:56416" ph="///   &lt;para&gt;Computes and stores colliders touching or inside the sphere into the provided buffer.&lt;/para&gt; ... " />
+            <marker date="1572614068838" expanded="true" signature="56656:56787" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="56921:57050" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="57169:57291" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="57553:57693" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="57699:58205" ph="///   &lt;para&gt;Returns true if there are any colliders overlapping the sphere defined by position and radius in worl ... " />
+            <marker date="1572614068838" expanded="true" signature="58427:58565" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="58670:58780" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="58870:58973" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="58979:59944" ph="///   &lt;para&gt;Casts a capsule against all colliders in the Scene and returns detailed information on what was hit i ... " />
+            <marker date="1572614068838" expanded="true" signature="60280:60439" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="60625:60782" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="60953:61103" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="61255:61416" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="61422:62248" ph="///   &lt;para&gt;Cast sphere along the direction and store the results into buffer.&lt;/para&gt; ... " />
+            <marker date="1572614068838" expanded="true" signature="62567:62717" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="62886:63034" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="63188:63329" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="63464:63616" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="63622:64391" ph="///   &lt;para&gt;Cast sphere along the direction and store the results into buffer.&lt;/para&gt; ... " />
+            <marker date="1572614068838" expanded="true" signature="64684:64830" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="64973:65107" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="65235:65362" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="65471:65609" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="65883:66030" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="66036:66659" ph="///   &lt;para&gt;Checks if any colliders overlap a capsule-shaped volume in world space.&lt;/para&gt; ... " />
+            <marker date="1572614068838" expanded="true" signature="66892:67033" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="67149:67262" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="67363:67469" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="67754:67915" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="67921:68564" ph="///   &lt;para&gt;Check whether the given box overlaps with other colliders or not.&lt;/para&gt; ... " />
+            <marker date="1572614068838" expanded="true" signature="68850:69001" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="69132:69255" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="69371:69487" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="69579:69703" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="69999:70162" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="70168:70801" ph="///   &lt;para&gt;Find all colliders touching or inside of the given box.&lt;/para&gt; ... " />
+            <marker date="1572614068838" expanded="true" signature="71084:71237" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="71376:71501" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="71625:71743" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="71843:71969" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="71975:72750" ph="///   &lt;para&gt;Find all colliders touching or inside of the given box, and store them into the buffer.&lt;/para&gt; ... " />
+            <marker date="1572614068838" expanded="true" signature="73049:73188" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="73343:73480" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="73625:73760" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="73881:74024" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="74030:74952" ph="///   &lt;para&gt;Cast the box along the direction, and store hits in the provided buffer.&lt;/para&gt; ... " />
+            <marker date="1572614068838" expanded="true" signature="75337:75502" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="75665:75832" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="76014:76170" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="76367:76530" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="76669:76844" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="77180:77371" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="77377:78176" ph="///   &lt;para&gt;Like Physics.BoxCast, but returns all hits.&lt;/para&gt; ... " />
+            <marker date="1572614068838" expanded="true" signature="78543:78904" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="79083:79232" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="79396:79538" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="79683:79836" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="79957:80118" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="80124:80935" ph="///   &lt;para&gt;Check the given capsule against the physics world and return all overlapping colliders in the user-pr ... " />
+            <marker date="1572614068838" expanded="true" signature="81190:81328" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="81477:81613" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="81747:81876" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="82057:82153" ph="{...}" />
+            <marker date="1572614068838" expanded="true" signature="82159:82454" ph="///   &lt;para&gt;Rebuild the broadphase interest regions as well as set the world boundaries.&lt;/para&gt; ... " />
+            <marker date="1572614068838" expanded="true" signature="82540:83092" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Director.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="26" column="5" lean-forward="false" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <marker date="1572618093099" expanded="true" signature="6:164" ph="..." />
+            <marker date="1572618093099" expanded="true" signature="166:515" ph="/* TODO: Robotten må ikke køre gennem ting. ... */" />
+            <marker date="1572618093099" expanded="true" signature="553:1140" ph="{...}" />
+            <marker date="1572618093099" expanded="true" signature="714:764" ph="{...}" />
+            <marker date="1572618093099" expanded="true" signature="800:1042" ph="{...}" />
+            <marker date="1572618093099" expanded="true" signature="816:943" ph="/* TODO:; Other cools computations Filters ... */" />
+            <marker date="1572618093099" expanded="true" signature="984:1035" ph="{...}" />
+            <marker date="1572618093099" expanded="true" signature="1074:1138" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/RaycastSensor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1061">
+          <caret line="59" column="27" lean-forward="false" selection-start-line="59" selection-start-column="27" selection-end-line="59" selection-end-column="27" />
+          <folding>
+            <marker date="1572619271640" expanded="true" signature="6:132" ph="..." />
+            <marker date="1572619271640" expanded="true" signature="176:1798" ph="{...}" />
+            <marker date="1572619271640" expanded="true" signature="497:510" ph="{...}" />
+            <marker date="1572619271640" expanded="true" signature="568:1128" ph="{...}" />
+            <marker date="1572619271640" expanded="true" signature="599:1105" ph="{...}" />
+            <marker date="1572619271640" expanded="true" signature="685:741" ph="{...}" />
+            <marker date="1572619271640" expanded="true" signature="773:934" ph="{...}" />
+            <marker date="1572619271640" expanded="true" signature="951:1082" ph="{...}" />
+            <marker date="1572619271640" expanded="true" signature="1154:1260" ph="{...}" />
+            <marker date="1572619271640" expanded="true" signature="1313:1515" ph="{...}" />
+            <marker date="1572619271640" expanded="true" signature="1420:1473" ph="{...}" />
+            <marker date="1572619271640" expanded="true" signature="1583:1796" ph="{...}" />
+            <marker date="1572619271640" expanded="true" signature="1711:1761" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ObstacleSpawner.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1572609073903" expanded="false" signature="6:78" ph="..." />
+            <marker date="1572609073903" expanded="true" signature="124:1581" ph="{...}" />
+            <marker date="1572609073903" expanded="true" signature="489:528" ph="{...}" />
+            <marker date="1572609073903" expanded="true" signature="586:776" ph="{...}" />
+            <marker date="1572609073903" expanded="true" signature="629:681" ph="{...}" />
+            <marker date="1572609073903" expanded="true" signature="719:770" ph="{...}" />
+            <marker date="1572609073903" expanded="true" signature="855:1183" ph="{...}" />
+            <marker date="1572609073903" expanded="true" signature="912:1177" ph="{...}" />
+            <marker date="1572609073903" expanded="true" signature="1243:1343" ph="{...}" />
+            <marker date="1572609073903" expanded="true" signature="1380:1574" ph="{...}" />
+            <marker date="1572609073903" expanded="true" signature="1463:1559" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Robot.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/RobotMover.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="42" column="40" lean-forward="true" selection-start-line="42" selection-start-column="40" selection-end-line="42" selection-end-column="40" />
+          <folding>
+            <marker date="1572619548070" expanded="false" signature="6:78" ph="..." />
+            <marker date="1572619548070" expanded="true" signature="119:1547" ph="{...}" />
+            <marker date="1572619548070" expanded="true" signature="191:203" ph="{...}" />
+            <marker date="1572619548070" expanded="true" signature="439:1508" ph="{...}" />
+            <marker date="1572619548070" expanded="true" signature="473:981" ph="{...}" />
+            <marker date="1572619548070" expanded="true" signature="524:652" ph="{...}" />
+            <marker date="1572619548070" expanded="true" signature="694:812" ph="{...}" />
+            <marker date="1572619548070" expanded="true" signature="854:971" ph="{...}" />
+            <marker date="1572619548070" expanded="true" signature="994:1502" ph="{...}" />
+            <marker date="1572619548070" expanded="true" signature="1045:1173" ph="{...}" />
+            <marker date="1572619548070" expanded="true" signature="1215:1333" ph="{...}" />
+            <marker date="1572619548070" expanded="true" signature="1375:1492" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>

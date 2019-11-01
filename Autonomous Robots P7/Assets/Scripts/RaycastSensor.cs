@@ -2,12 +2,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Assertions.Comparers;
 
 public class RaycastSensor : MonoBehaviour
 {
 
-    public float length;
-
+    public float hitLength;
+    public float poiLength;
+    
     private Vector3 posOfRaycast;
     private Vector3 dirOfRaycast;
     
@@ -19,7 +21,7 @@ public class RaycastSensor : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        debugPrint = false;
+
     }
 
     // Update is called once per frame
@@ -36,12 +38,12 @@ public class RaycastSensor : MonoBehaviour
         
             if (Hit())
             {
-                Debug.DrawRay(this.transform.position, this.transform.forward * length, Color.red);
+                Debug.DrawRay(this.transform.position, this.transform.forward * hitLength, Color.red);
                 print("Hit");
             }
             else
             {
-                Debug.DrawRay(this.transform.position, this.transform.forward *length, Color.blue);
+                Debug.DrawRay(this.transform.position, this.transform.forward *hitLength, Color.blue);
             }
             
         }
@@ -49,18 +51,27 @@ public class RaycastSensor : MonoBehaviour
         
     }
 
-    Boolean Hit()
+    public Boolean Hit()
     {
-         return  Physics.Raycast(this.transform.position, this.transform.forward, length);
+         return  Physics.Raycast(this.transform.position, this.transform.forward, hitLength);
     }
 
-    //TODO distance på hit.
-    
-    //TODO: point of impact
-    Vector3 PointOfImpact()
+    //TODO maxdistance?
+    public float Distance()
     {
         RaycastHit hit;
-        if (Physics.Raycast(this.transform.position, this.transform.forward, out hit))
+        if (Physics.Raycast(transform.position, transform.forward, out hit))
+        {
+            return hit.distance;
+        }
+        else return float.MaxValue;
+    }
+    
+    //TODO: point of impact
+    public Vector3 PointOfImpact()
+    {
+        RaycastHit hit;
+        if (Physics.Raycast(this.transform.position, this.transform.forward, out hit, poiLength))
         {
             return hit.point;
         }
