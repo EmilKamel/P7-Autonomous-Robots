@@ -26,16 +26,19 @@ public class Director : MonoBehaviour
         points = new List<Vector3>();
     }
 
+    //TODO: Datamodel. 
+    // Mathf.Clamp -- https://docs.unity3d.com/ScriptReference/Mathf.Clamp.html
+    // Key value pair med clampx og clampz som keys.
+    
+    
     void AddVector3(Vector3 point)
     {
-
         //TODO:; Other cools computations Filters
         //JeppeMatrixing af points, så man kan se om man allerede har et givet punkt.
         if (!point.Equals(Vector3.zero))
         {
             points.Add(point);
         }
-
     }
 
     private void FixedUpdate()
