@@ -27,8 +27,8 @@ public class Vertex : MonoBehaviour
 
 
     public Vector3 pos;
-    public Bool frontier;
-    public Bool blocked;
+   // public Bool frontier;
+    //public Bool blocked;
 
     public List<Vertex> Neighbors;
 }
