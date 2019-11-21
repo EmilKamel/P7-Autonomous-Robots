@@ -9,6 +9,11 @@ public class RobotAIV1 : MonoBehaviour
     [SerializeField] private RobotMover _robot;
     [SerializeField] private RaycastSensor _sensorForward;
 
+    [SerializeField] public SoundSensorSimulator soundSensorSimulator;
+
+    private bool isNotCurrentlyBacking = true;
+    private float backingTimer = 0.5f;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -21,15 +26,25 @@ public class RobotAIV1 : MonoBehaviour
     {
         if (Active)
         {
-            if (_sensorForward.Hit())
-            {
-                _robot.SetMovements(false, false, true, false);
+            if(!soundSensorSimulator.GetIsCurrentlyColliding() && isNotCurrentlyBacking){
+                if (_sensorForward.Hit())
+                {
+                    _robot.SetMovements(false, false, true, false);
+                }
+                else
+                {
+                    _robot.SetMovements(true, false, false, false);
+                }
             }
-            else
-            {
-                _robot.SetMovements(true, false, false, false);
+            else{
+                _robot.SetMovements(false, true, true, false);
+                backingTimer -= Time.deltaTime;
+                isNotCurrentlyBacking = false;
+                if(backingTimer < 0){
+                    backingTimer = 0.5f;
+                    isNotCurrentlyBacking = true;
+                }
             }
-            
             //TODO: statemachine.
         }
     }
