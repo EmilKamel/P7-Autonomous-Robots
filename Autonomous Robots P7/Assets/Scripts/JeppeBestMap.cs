@@ -33,11 +33,5 @@ public class Vertex : MonoBehaviour
     public List<Vertex> Neighbors;
 }
 
-public class Matrix : MonoBehaviour
-{
-    //TODO: 2d array List<List<field>>
-    //
-    //Field = pos, points, blocked, frontier. NICE:)
 
-}
 
