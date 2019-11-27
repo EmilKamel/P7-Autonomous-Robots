@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Square : MonoBehaviour
+public class Square
 {
     // Start is called before the first frame update
     void Start()
@@ -15,14 +15,20 @@ public class Square : MonoBehaviour
     {
         
     }
-    
+
+    public Vector3 center;
     List<Vector3> _points;
-    private bool blocked;
+    public bool blocked;
 
     public void AddPoint(Vector3 point)
     {
         if (blocked == null || blocked == false)
         {
+            if (_points == null)
+            {
+                _points = new List<Vector3>();
+            }
+            
             blocked = true; 
             _points.Add(point);
         }

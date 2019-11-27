@@ -2,28 +2,36 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Experimental.TerrainAPI;
 
 public class Matrix : MonoBehaviour
 {
+    public GameObject paintPrefab;
     // Start is called before the first frame update
     void Start()
     {
         //TODO: lav map.
-        //TODO: Instantiate gameobjects i foreach loop i scene.
+        //TODO: Instantiate GameObjects i foreach loop i scene.
+        //TODO: Sæt farve til square.points.count. --> Heatmap :))
+        
+        _squares = new Dictionary<string, Square>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.P))
+        {
+            
+            PaintMap();
+        }
     }
     
     //TODO: 2d array List<List<field>>
     //
     //Field = pos, points, blocked, frontier. NICE:)
     private List<List<Square>> _matrix;
-
-
+    
     private Dictionary<String, Square> _squares;
 
     // int int --Round--> string x z 
@@ -47,6 +55,7 @@ public class Matrix : MonoBehaviour
         
         Square square = new Square();
         square.AddPoint(point);
+        square.center = point;
         
         _squares.Add(key, square);
     }
@@ -57,6 +66,32 @@ public class Matrix : MonoBehaviour
         Square square;
         _squares.TryGetValue(CoordsToString(x, z), out square);
         return square;
+    }
+
+
+    public void PaintMap()
+    {
+        Vector3 offset = Vector3.up * 5;
+        Color c;
+        foreach (var s in _squares)
+        {
+            if (s.Value.blocked)
+            {
+                //Paint blocked mat
+                c = Color.red;
+            }
+            else
+            {
+                c = Color.white;
+            }
+            
+            GameObject go = Instantiate(paintPrefab,s.Value.center + offset, Quaternion.identity);
+            go.GetComponent<Renderer>().material.color = c;
+            
+            //TODO paint other colors for other values
+
+        }
+        
     }
     
 }

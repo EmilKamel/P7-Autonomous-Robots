@@ -1,9 +1,11 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using JetBrains.Annotations;
 using UnityEngine;
 using UnityEngine.Experimental.PlayerLoop;
+using UnityEngine.Serialization;
 
 //TODO: Robotten må ikke køre gennem ting.
 //TODO: distance 
@@ -16,14 +18,22 @@ using UnityEngine.Experimental.PlayerLoop;
 public class Director : MonoBehaviour
 {
     public RaycastSensor _raycastSensor;
+    public RaycastSensor[] raycastSensors;
     public List<Vector3> points;
-    
-    
+    public MapPainter mp;
+    public GameObject robot;
+    public Matrix matrix;
     
     // Start is called before the first frame update
     void Start()
     {
+        robot = GameObject.Find("Robot");
         points = new List<Vector3>();
+        mp = GetComponent<MapPainter>();
+
+        raycastSensors = robot.GetComponentsInChildren<RaycastSensor>();
+
+        matrix = GetComponent<Matrix>();
     }
 
     //TODO: Datamodel. 
@@ -35,14 +45,21 @@ public class Director : MonoBehaviour
     {
         //TODO:; Other cools computations Filters
         //JeppeMatrixing af points, så man kan se om man allerede har et givet punkt.
+        mp.PlacePointAtOffset(point);
+        
+        matrix.AddPointToSquares(point);
+        
         if (!point.Equals(Vector3.zero))
         {
-            points.Add(point);
+            //points.Add(point);
         }
     }
 
-    private void FixedUpdate()
+    void FixedUpdate()
     {
-        AddVector3(_raycastSensor.PointOfImpact());
+        foreach (RaycastSensor rs in  raycastSensors)
+        {
+            AddVector3(rs.PointOfImpact());
+        }
     }
 }

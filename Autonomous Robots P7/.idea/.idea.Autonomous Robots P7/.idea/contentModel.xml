@@ -17,6 +17,7 @@
           <e p="JeppeBestMap.cs" t="Include" />
           <e p="MatrixMap" t="Include">
             <e p="EmilMap.cs" t="Include" />
+            <e p="MapPainter.cs" t="Include" />
             <e p="Matrix.cs" t="Include" />
             <e p="Square.cs" t="Include" />
           </e>

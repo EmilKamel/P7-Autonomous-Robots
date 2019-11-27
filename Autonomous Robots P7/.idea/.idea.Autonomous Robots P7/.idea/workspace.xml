@@ -23,7 +23,9 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/RaycastSensor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MatrixMap/MapPainter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/RobotMover.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/RobotAIV1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MatrixMap/Matrix.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/JeppeBestMap.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MatrixMap/Square.cs" root0="FORCE_HIGHLIGHTING" />
@@ -38,12 +40,13 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Robot.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/RobotMover.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/RobotAIV1.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Director.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EmilMap.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/JeppeBestMap.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MatrixMap/EmilMap.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MatrixMap/Square.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Director.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MatrixMap/MapPainter.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MatrixMap/Matrix.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MatrixMap/Square.cs" />
       </list>
     </option>
   </component>
@@ -98,7 +101,8 @@
       <workItem from="1573119117709" duration="774000" />
       <workItem from="1574253382928" duration="688000" />
       <workItem from="1574331061571" duration="8406000" />
-      <workItem from="1574422877737" duration="10009000" />
+      <workItem from="1574422877737" duration="10313000" />
+      <workItem from="1574853890162" duration="10394000" />
     </task>
     <servers />
   </component>
