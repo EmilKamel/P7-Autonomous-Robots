@@ -45,6 +45,12 @@ public class Matrix : MonoBehaviour
     {
         return Mathf.Round(vec.x).ToString() + Mathf.Round(vec.z).ToString();
     }
+
+    private Vector3 RoundVector3(Vector3 input)
+    {
+        Vector3 output = new Vector3(Mathf.Round(input.x),Mathf.Round(input.y), Mathf.Round(input.z));
+        return output;
+    }
     
     // Checks and adds a point to the _squares Dictionary. If the square exists, adds point to it.
     public void AddPointToSquares(Vector3 point)
@@ -55,7 +61,7 @@ public class Matrix : MonoBehaviour
         
         Square square = new Square();
         square.AddPoint(point);
-        square.center = point;
+        square.center = RoundVector3(point);
         
         _squares.Add(key, square);
     }

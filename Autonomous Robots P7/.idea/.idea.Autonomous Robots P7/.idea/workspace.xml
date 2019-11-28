@@ -8,11 +8,6 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>raycast</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="ADD_SUFFIX_TO_CHERRY_PICKS_OF_PUBLISHED_COMMITS" value="false" />
     <option name="PREVIEW_PUSH_ON_COMMIT_AND_PUSH" value="false" />
@@ -43,10 +38,10 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/EmilMap.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/JeppeBestMap.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MatrixMap/EmilMap.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Director.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MatrixMap/MapPainter.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MatrixMap/Matrix.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MatrixMap/Square.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Director.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MatrixMap/Matrix.cs" />
       </list>
     </option>
   </component>
@@ -102,7 +97,8 @@
       <workItem from="1574253382928" duration="688000" />
       <workItem from="1574331061571" duration="8406000" />
       <workItem from="1574422877737" duration="10313000" />
-      <workItem from="1574853890162" duration="10394000" />
+      <workItem from="1574853890162" duration="11125000" />
+      <workItem from="1574934065469" duration="2485000" />
     </task>
     <servers />
   </component>

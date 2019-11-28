@@ -45,12 +45,14 @@ public class Director : MonoBehaviour
     {
         //TODO:; Other cools computations Filters
         //JeppeMatrixing af points, så man kan se om man allerede har et givet punkt.
-        mp.PlacePointAtOffset(point);
         
-        matrix.AddPointToSquares(point);
+        
+        
         
         if (!point.Equals(Vector3.zero))
         {
+            mp.PlacePointAtOffset(point);
+            matrix.AddPointToSquares(point);
             //points.Add(point);
         }
     }
