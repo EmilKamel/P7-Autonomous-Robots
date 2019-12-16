@@ -22,6 +22,11 @@ public class Square
     public bool _blocked;
     public Status _status;
     public GameObject SquareGameObject;
+
+    public enum Direction
+    {
+        Forward, Behind, Left, Right
+    }
     
 
     public enum Status
@@ -37,7 +42,31 @@ public class Square
     public void TestFrontier()
     {
         
-        
+        //No 
+    }
+    
+    //TODO,, relations til naboer
+
+    public Vector3 GetNeighbour(Direction dir)
+    {
+        Vector3 output = Vector3.zero;
+
+        switch (dir)
+        {
+            case Direction.Forward:
+                output = center + Vector3.forward;
+                break;
+            case Direction.Behind:
+                output = center + Vector3.back;
+                break;
+            case Direction.Left:
+                output = center + Vector3.left;
+                break; 
+            case Direction.Right:
+                output = center + Vector3.right;
+                break;
+        }
+        return output;
     }
     
     public void AddPoint(Vector3 point, Status state)

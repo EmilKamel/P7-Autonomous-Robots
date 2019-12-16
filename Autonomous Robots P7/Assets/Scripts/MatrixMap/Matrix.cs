@@ -102,6 +102,15 @@ public class Matrix : MonoBehaviour
         return LookUpSquare((int)vec.x, (int)vec.z);
     }
 
+
+    public Square NeighbourSquare(Square square ,Square.Direction direction)
+    {
+
+        return LookUpSquareVector3(square.GetNeighbour(direction));
+
+
+    }
+    
     public void AddNeighbours()
     {
         Dictionary<string, Square> dic = new Dictionary<string, Square>();
