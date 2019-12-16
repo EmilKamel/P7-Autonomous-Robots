@@ -9,6 +9,13 @@ public class RaycastSensor : MonoBehaviour
 
     public float hitLength;
     public float poiLength;
+
+    public enum ImpactType
+    {
+        Point, GameObject, ForwardOffset
+    }
+
+    [SerializeField] public ImpactType _impactType;
     
     private Vector3 posOfRaycast;
     private Vector3 dirOfRaycast;
@@ -47,7 +54,6 @@ public class RaycastSensor : MonoBehaviour
             }
             
         }
-       
         
     }
 
@@ -55,7 +61,7 @@ public class RaycastSensor : MonoBehaviour
     {
          return  Physics.Raycast(this.transform.position, this.transform.forward, hitLength);
     }
-
+    
     //TODO maxdistance?
     public float Distance()
     {
@@ -70,6 +76,22 @@ public class RaycastSensor : MonoBehaviour
     //TODO: point of impact
     public Vector3 PointOfImpact()
     {
+        switch (_impactType)
+        {
+            case ImpactType.Point:
+                PointOfImpactSimple();
+                break;
+            case ImpactType.GameObject:
+                return PointOfImpactObject();
+            case ImpactType.ForwardOffset:
+                return PointOfImpactWithForward();
+        }
+
+        return Vector3.zero;
+    }
+
+    public Vector3 PointOfImpactSimple()
+    {
         RaycastHit hit;
         if (Physics.Raycast(this.transform.position, this.transform.forward, out hit, poiLength))
         {
@@ -77,4 +99,25 @@ public class RaycastSensor : MonoBehaviour
         }
         return Vector3.zero;
     }
+    
+    public Vector3 PointOfImpactWithForward()
+    {
+        RaycastHit hit;
+        if (Physics.Raycast(this.transform.position, this.transform.forward, out hit, poiLength))
+        {
+            return hit.point + (this.transform.forward * 0.1f);
+        }
+        return Vector3.zero;
+    }
+
+    public Vector3 PointOfImpactObject()
+    {
+        RaycastHit hit;
+        if (Physics.Raycast(this.transform.position, this.transform.forward, out hit, poiLength))
+        {
+            return hit.collider.transform.position;
+        }
+        return Vector3.zero;
+    }
+    
 }

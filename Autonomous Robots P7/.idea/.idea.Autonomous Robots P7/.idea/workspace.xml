@@ -31,16 +31,16 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/RaycastSensor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Robot.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/RobotMover.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/RobotAIV1.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EmilMap.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/JeppeBestMap.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MatrixMap/EmilMap.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MatrixMap/MapPainter.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MatrixMap/Square.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Director.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/RobotAIV1.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/RaycastSensor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MatrixMap/Matrix.cs" />
       </list>
     </option>
@@ -99,6 +99,9 @@
       <workItem from="1574422877737" duration="10313000" />
       <workItem from="1574853890162" duration="11125000" />
       <workItem from="1574934065469" duration="2485000" />
+      <workItem from="1574941156112" duration="400000" />
+      <workItem from="1576240772337" duration="4036000" />
+      <workItem from="1576489178643" duration="13693000" />
     </task>
     <servers />
   </component>

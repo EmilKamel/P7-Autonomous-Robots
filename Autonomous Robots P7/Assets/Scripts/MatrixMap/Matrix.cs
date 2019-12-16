@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.Experimental.TerrainAPI;
 
@@ -24,6 +25,12 @@ public class Matrix : MonoBehaviour
         {
             
             PaintMap();
+        }
+
+        if (Input.GetKeyDown(KeyCode.N))
+        {
+            AddNeighbours();
+            
         }
     }
     
@@ -53,17 +60,32 @@ public class Matrix : MonoBehaviour
     }
     
     // Checks and adds a point to the _squares Dictionary. If the square exists, adds point to it.
-    public void AddPointToSquares(Vector3 point)
+    public void AddPointToSquares(Vector3 point, Boolean blocked)
     {
         string key = Vector3ToString(point);
         if (_squares.ContainsKey(key))
             return;
         
         Square square = new Square();
-        square.AddPoint(point);
+        square.AddPoint(point, Square.Status.Blocked);
         square.center = RoundVector3(point);
         
         _squares.Add(key, square);
+    }
+
+    public void AddPointToSquares(Vector3 point, Square.Status state)
+    {
+        string key = Vector3ToString(point);
+        if (_squares.ContainsKey(key))
+            return;
+        
+        Square square = new Square();
+        square._status = state;
+        square.AddPoint(point, state);
+        square.center = RoundVector3(point);
+        
+        _squares.Add(key, square);
+
     }
     
     // Search for a square in the _squares dictionary. 
@@ -74,21 +96,95 @@ public class Matrix : MonoBehaviour
         return square;
     }
 
+    public Square LookUpSquareVector3(Vector3 vec)
+    {
+        vec = RoundVector3(vec);
+        return LookUpSquare((int)vec.x, (int)vec.z);
+    }
+
+    public void AddNeighbours()
+    {
+        Dictionary<string, Square> dic = new Dictionary<string, Square>();
+        
+
+        
+        foreach (var s in _squares.Where(s => s.Value.GetStatus() == Square.Status.Explored))
+        {
+            dic.Add(s.Key, s.Value);
+        }
+        
+        List<Vector3> output = new List<Vector3>();
+        
+        foreach (var s in dic)
+        { 
+            Vector3 pos = s.Value.center;
+
+                
+                Square neighbour;
+                //FREM
+                if(_squares.TryGetValue(Vector3ToString(pos + Vector3.forward), out neighbour))
+                {    
+                    //square exists    
+                }
+                else
+                {
+                    output.Add(pos + Vector3.forward);
+                }
+                //TILBAGE
+                if(_squares.TryGetValue(Vector3ToString(pos + -Vector3.forward), out neighbour))
+                {    
+                    //square exists    
+                }
+                else
+                {
+                    output.Add(pos + -Vector3.forward);
+                }
+                //FRA SIDE
+                if(_squares.TryGetValue(Vector3ToString(pos + Vector3.left), out neighbour))
+                {    
+                    //square exists    
+                }
+                else
+                {
+                    output.Add(pos + Vector3.left);
+                }
+                // TIL SIDE
+                if(_squares.TryGetValue(Vector3ToString(pos + Vector3.right), out neighbour))
+                {    
+                    //square exists    
+                }
+                else
+                {
+                    output.Add(pos + Vector3.right);
+                }
+            
+        }
+
+        foreach (var o in output)
+        {
+            AddPointToSquares(o, Square.Status.Frontier);
+        }
+    }
+    
 
     public void PaintMap()
     {
         Vector3 offset = Vector3.up * 5;
-        Color c;
+        Color c = Color.white;
         foreach (var s in _squares)
         {
-            if (s.Value.blocked)
+            switch (s.Value.GetStatus())
             {
-                //Paint blocked mat
-                c = Color.red;
-            }
-            else
-            {
-                c = Color.white;
+                case Square.Status.Blocked:
+                    //Paint blocked mat
+                    c = Color.red;
+                    break;
+                case Square.Status.Explored:
+                    c = Color.green;
+                    break;
+                case Square.Status.Frontier:
+                    c = Color.blue;
+                    break;
             }
             
             GameObject go = Instantiate(paintPrefab,s.Value.center + offset, Quaternion.identity);

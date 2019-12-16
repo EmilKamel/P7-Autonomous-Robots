@@ -1,10 +1,18 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class RobotAIV1 : MonoBehaviour
 {
     public bool Active;
+    
+    public NavState _NavState;
+    
+    public enum NavState
+    {
+        RandomMovement, ActiveSearchFrontier
+    }
 
     [SerializeField] private RobotMover _robot;
     [SerializeField] private RaycastSensor _sensorForward;
@@ -17,10 +25,32 @@ public class RobotAIV1 : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+
+    void FixedUpdate()
     {
-        if (Active)
+        if (Active && _NavState == NavState.RandomMovement)
         {
+            RandomMovementLoop();
+        }
+
+        if (Active && _NavState == NavState.ActiveSearchFrontier)
+        {
+            ActiveSearchLoop();
+            
+        }
+        
+        
+    }
+
+    void ActiveSearchLoop()
+    {
+        
+        
+    }
+
+    void RandomMovementLoop()
+    {
+       
             if (_sensorForward.Hit())
             {
                 _robot.SetMovements(false, false, true, false);
@@ -29,8 +59,12 @@ public class RobotAIV1 : MonoBehaviour
             {
                 _robot.SetMovements(true, false, false, false);
             }
-            
-            //TODO: statemachine.
-        }
+
+        
+    }
+    
+    void Update()
+    {
+
     }
 }
