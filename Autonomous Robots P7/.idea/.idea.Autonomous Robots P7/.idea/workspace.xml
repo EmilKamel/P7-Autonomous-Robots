@@ -36,12 +36,12 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/EmilMap.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/JeppeBestMap.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MatrixMap/EmilMap.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MatrixMap/MapPainter.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Director.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/RobotAIV1.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/RaycastSensor.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MatrixMap/Square.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MatrixMap/Matrix.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/RaycastSensor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MatrixMap/MapPainter.cs" />
       </list>
     </option>
   </component>
@@ -102,6 +102,7 @@
       <workItem from="1574941156112" duration="400000" />
       <workItem from="1576240772337" duration="4036000" />
       <workItem from="1576489178643" duration="16001000" />
+      <workItem from="1576574895486" duration="5715000" />
     </task>
     <servers />
   </component>

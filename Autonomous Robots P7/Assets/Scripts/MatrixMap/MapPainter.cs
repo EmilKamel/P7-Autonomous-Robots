@@ -30,15 +30,17 @@ public class MapPainter : MonoBehaviour
     public void PlacePixelAt(Vector3 pos, Color color)
     {
         if(PlaceTinyDots)
-        {GameObject go = Instantiate(_gameObject, pos, Quaternion.identity);
+        {
+            GameObject go = Instantiate(_gameObject, pos, Quaternion.identity);
             go.GetComponent<Renderer>().material.color = color;}
     }
     
     public void PlacePointAtOffset(Vector3 pos)
     {
         if(PlaceTinyDots)
-        {Instantiate(_gameObject, pos + (Vector3.up * _height), Quaternion.identity);
-    }
+        {
+            Instantiate(_gameObject, pos + (Vector3.up * _height), Quaternion.identity);
+        }
         
     }
     

@@ -90,7 +90,7 @@ public class RaycastSensor : MonoBehaviour
         return Vector3.zero;
     }
 
-    public Vector3 PointOfImpactSimple()
+    private Vector3 PointOfImpactSimple()
     {
         RaycastHit hit;
         if (Physics.Raycast(this.transform.position, this.transform.forward, out hit, poiLength))
@@ -99,18 +99,18 @@ public class RaycastSensor : MonoBehaviour
         }
         return Vector3.zero;
     }
-    
-    public Vector3 PointOfImpactWithForward()
+
+    private Vector3 PointOfImpactWithForward()
     {
         RaycastHit hit;
         if (Physics.Raycast(this.transform.position, this.transform.forward, out hit, poiLength))
         {
-            return hit.point + (this.transform.forward * 0.1f);
+            return hit.point + (this.transform.forward * 0.001f);
         }
         return Vector3.zero;
     }
 
-    public Vector3 PointOfImpactObject()
+    private Vector3 PointOfImpactObject()
     {
         RaycastHit hit;
         if (Physics.Raycast(this.transform.position, this.transform.forward, out hit, poiLength))

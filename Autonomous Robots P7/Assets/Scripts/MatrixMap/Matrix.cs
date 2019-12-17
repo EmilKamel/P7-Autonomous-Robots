@@ -105,25 +105,15 @@ public class Matrix : MonoBehaviour
 
     public Square NeighbourSquare(Square square ,Square.Direction direction)
     {
-
         return LookUpSquareVector3(square.GetNeighbour(direction));
-
-
     }
     
     public void AddNeighbours()
     {
-        Dictionary<string, Square> dic = new Dictionary<string, Square>();
-        
+        Dictionary<string, Square> dic = _squares.Where(s => s.Value.GetStatus() == Square.Status.Explored).ToDictionary(s => s.Key, s => s.Value);
 
-        
-        foreach (var s in _squares.Where(s => s.Value.GetStatus() == Square.Status.Explored))
-        {
-            dic.Add(s.Key, s.Value);
-        }
-        
+
         List<Vector3> output = new List<Vector3>();
-        
         foreach (var s in dic)
         { 
             Vector3 pos = s.Value.center;
@@ -166,9 +156,7 @@ public class Matrix : MonoBehaviour
                 {
                     output.Add(pos + Vector3.right);
                 }
-            
         }
-
         foreach (var o in output)
         {
             AddPointToSquares(o, Square.Status.Frontier);
