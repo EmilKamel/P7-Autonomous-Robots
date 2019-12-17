@@ -120,6 +120,7 @@ public class Matrix : MonoBehaviour
 
                 
                 Square neighbour;
+                
                 //FREM
                 if(_squares.TryGetValue(Vector3ToString(pos + Vector3.forward), out neighbour))
                 {    
